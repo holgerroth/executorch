@@ -16,8 +16,7 @@ def define_common_targets():
             "//executorch/extension/training/optimizer:sgd",
             "//executorch/runtime/executor:program",
             "//executorch/extension/data_loader:file_data_loader",
-            "//executorch/kernels/portable:generated_lib",
-            "//executorch/extension/flat_tensor/serialize:serialize_cpp"
+            "//executorch/kernels/portable:generated_lib"
         ],
         external_deps = ["gflags"],
         define_static_target = True,
